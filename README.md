@@ -3,6 +3,8 @@ A Esp8266 wifi matrix clock
 
 ![bom.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/bom.jpg?raw=true)
 
+![1.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/1.jpg?raw=true)
+
 ![blue.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/blue.jpg?raw=true)
 
 ![green.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/green.jpg?raw=true)
