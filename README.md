@@ -14,7 +14,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 2.点击工具 - 开发板 - 开发板管理器  
 搜索ESP8266并安装  
-2.open tools - board - borad manager    
+2.open tools - board - board manager    
 search ESP8266 and install  
 ![pic1.png](https://i.loli.net/2020/05/08/mNBRfaV4S8sb37I.png)  
 
