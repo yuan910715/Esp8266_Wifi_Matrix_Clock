@@ -6,6 +6,7 @@
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
+#include <EEPROM.h>
 
 #ifndef STASSID
 #define STASSID "your-ssid"
@@ -21,6 +22,11 @@ const char* serverIndex = "<form method='POST' action='/update' enctype='multipa
 
 void setup(void) {
   Serial.begin(115200);
+  EEPROM.begin(512);
+  for (int i = 0; i < 512; i++) {
+    EEPROM.write(i, 255);
+  }
+  EEPROM.end();
   Serial.println();
   Serial.println("Booting Sketch...");
   WiFi.mode(WIFI_AP_STA);
