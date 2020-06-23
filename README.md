@@ -3,6 +3,10 @@ A Esp8266 wifi matrix clock
 
 看不到图自行翻墙或查看Pics目录里的图  
 
+# Video  
+https://youtu.be/mZeVnjwp35k  
+https://space.bilibili.com/402654671  
+
 固件上传方法:   
 how to upload firmware:  
 1.自行设置安装ESP8266开发板  
