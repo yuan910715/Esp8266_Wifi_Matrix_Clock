@@ -8,7 +8,13 @@ https://youtu.be/mZeVnjwp35k
 https://space.bilibili.com/402654671  
 
 固件上传方法:   
-how to upload firmware:  
+how to upload firmware: 
+#  1.Flash tools
+
+使用FlashESP8266.exe直接选择COM口,上传.bin固件(若无COM口 检查microUSB先是否正常以及是否有CP2102/CH340驱动程序)   
+Open flashesp8266.exe , select COM port and upload. Bin firmware (if there is no COM port, check whether microusb cable is ok and CP2102 / ch340 driver)
+
+#  2.Arduino IDE
 1.自行设置安装ESP8266开发板  
 进入首选项（Preferences），找到附加开发板管理器地址（Additional Board Manager URLs），并在其后添加如下信息：  
 1.Install ESP8266 board  
