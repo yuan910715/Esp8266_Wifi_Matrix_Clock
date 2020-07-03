@@ -8,7 +8,11 @@ https://youtu.be/mZeVnjwp35k
 https://space.bilibili.com/402654671  
 
 固件上传方法:   
-how to upload firmware: 
+how to upload firmware:  
+
+如果你的开发板写入过其他程序(尤其是使用了EEPROM的),务必使用第二种Arduino IDE上传方法,webUpdate.ino会清除之前的EEPROM值.  
+If your ESP8266 board has been written other programs (especially those using EEPROM), be sure to use the second Arduino IDE to upload, webUpdate.ino will clean old EEPROM value.  
+
 #  1.Flash tools
 
 使用FlashESP8266.exe直接选择COM口,上传.bin固件(若无COM口 检查microUSB先是否正常以及是否有CP2102/CH340驱动程序)   
