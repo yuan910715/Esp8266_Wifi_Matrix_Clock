@@ -2,8 +2,10 @@
 A Esp8266 wifi matrix clock 
 
 
-2020.10.21推送的2.6版本有严重问题，自动更新后无法连wifi，led无显示。本想新加调速功能，上传服务器的.bin由于传输问题出现错误，已下线，但已影响了一些设备，请手动用arduino烧录webupdate 在页面上传2.5.bin 深表歉意。调速功能后续会再加。
+2020.10.21推送的2.6版本有严重问题，自动更新后无法连wifi，led无显示。本想新加调速功能，上传服务器的.bin由于传输问题出现错误，已下线，但已影响了一些设备，请手动用arduino烧录webupdate 在页面上传2.5.bin 深表歉意。调速功能后续会再加。    
 
+
+The 2.6 version pushed on 2020.10.21 has serious problems. After the automatic update, the wifi cannot be connected and the LED is not displayed.  I wanted to add a new speed control function. The upload server's .bin has been offline due to a transmission problem, but some devices have been affected. Please manually burn webupdate with arduino and upload 2.5.bin on the page. I apologize.  The speed control function will be added later.   
 
 
 看不到图自行翻墙或查看Pics目录里的图  
