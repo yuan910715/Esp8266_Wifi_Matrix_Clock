@@ -2,7 +2,9 @@
 A Esp8266 wifi matrix clock 
 
 
-# 2020.10.23 已查明上次事故的原因 是2.5版本的固件中 OTA部分出了问题 所以2.6更新后无法运行 现已将2.5 2.6固件删掉 修复后重新编译了2.7 增加了调速功能 显示更为流畅 修复了OTA的bug 请重新手动更新为2.7 以后会避免此类事件发生 对此深表歉意 
+2020.10.23 已查明上次事故的原因 是2.5版本的固件中 OTA部分出了问题 所以2.6更新后无法运行 现已将2.5 2.6固件删掉 修复后重新编译了2.7 增加了调速功能 显示更为流畅 修复了OTA的bug 请重新手动更新为2.7 以后会避免此类事件发生 对此深表歉意  出现问题可直接邮件联系我 admin@topyuan.top  
+2020.10.23 It has been found that the cause of the last accident is that the OTA part of the 2.5 version of the firmware has a problem, so it cannot run after the 2.6 update. Now the 2.5 2.6 firmware has been deleted and recompiled after repairing 2.7. The speed control function has been added. The display is more OTA bugs have been fixed smoothly. Please manually update to 2.7 again. This kind of incident will be avoided in the future. I apologize. If you have any problems, please email me   admin@topyuan.top
+
 
 
 2020.10.21推送的2.6版本有严重问题，自动更新后无法连wifi，led无显示。本想新加调速功能，上传服务器的.bin由于传输问题出现错误，已下线，但已影响了一些设备，请手动用arduino烧录webupdate 在页面上传2.5.bin 深表歉意。调速功能后续会再加。    
