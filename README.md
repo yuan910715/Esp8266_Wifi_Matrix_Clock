@@ -20,12 +20,14 @@ how to upload firmware:
 如果你的开发板写入过其他程序(尤其是使用了EEPROM的),务必使用第二种Arduino IDE上传方法,webUpdate.ino会清除之前的EEPROM值.  
 If your ESP8266 board has been written other programs (especially those using EEPROM), be sure to use the second Arduino IDE to upload, webUpdate.ino will clean old EEPROM value.  
 
-#  ~~1.Flash tools~~
+#  方法1适合不会使用Arduino IDE的新手 但有的电脑无法运行烧录软件 就只能使用方法2
+Method 1 is suitable for novices who do not know how to use Arduino IDE, but some computers cannot run the tools, so they can only use method 2.  
 
-~~使用FlashESP8266.exe直接选择COM口,上传.bin固件(若无COM口 检查microUSB先是否正常以及是否有CP2102/CH340驱动程序)~~   
-~~Open flashesp8266.exe , select COM port and upload. Bin firmware (if there is no COM port, check whether microusb cable is ok and CP2102 / ch340 driver)~~    
-这个工具有很多人打不开，推荐使用第二种Arduino IDE方法烧录    
-Many people cannot run this tool. It is recommended to use Arduino IDE to burn the firmware    
+#  1.Flash tools   OR   ESP8266Flasher
+
+使用FlashESP8266.exe或者ESP8266Flasher直接选择COM口,上传.bin固件(ESP8266Flasher请在config标签点击第一条齿轮图标)(若无COM口 检查microUSB先是否正常以及是否有CP2102/CH340驱动程序)   
+Open flashesp8266.exe or ESP8266Flasher, select COM port and upload. Bin firmware(For ESP8266Flasher, please click the first gear icon in the config tab) (if there is no COM port, check whether microusb cable is ok and CP2102 / ch340 driver)  
+
 
 #  2.Arduino IDE
 1.自行设置安装ESP8266开发板  
