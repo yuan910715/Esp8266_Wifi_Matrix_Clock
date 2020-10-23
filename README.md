@@ -30,8 +30,8 @@ Method 1 is suitable for novices who do not know how to use Arduino IDE, but som
 
 #  1.Flash tools   OR   ESP8266Flasher
 
-使用FlashESP8266.exe或者ESP8266Flasher直接选择COM口,上传.bin固件(ESP8266Flasher请在config标签点击第一条齿轮图标)(若无COM口 检查microUSB先是否正常以及是否有CP2102/CH340驱动程序)   
-Open flashesp8266.exe or ESP8266Flasher, select COM port and upload. Bin firmware(For ESP8266Flasher, please click the first gear icon in the config tab) (if there is no COM port, check whether microusb cable is ok and CP2102 / ch340 driver)  
+使用FlashESP8266.exe或者ESP8266Flasher直接选择COM口,上传.bin固件(ESP8266Flasher请在config标签点击第一条齿轮图标)(若无COM口 检查microUSB数据线是否正常 不要使用无数据传输功能的2芯线 以及是否有CP2102/CH340驱动程序)   
+Open flashesp8266.exe or ESP8266Flasher, select COM port and upload. Bin firmware(For ESP8266Flasher, please click the first gear icon in the config tab) (if there is no COM port, check whether microusb cable is ok(Do not use 2-core cables without data transmission function) and CP2102 / ch340 driver)  
 
 
 #  2.Arduino IDE
