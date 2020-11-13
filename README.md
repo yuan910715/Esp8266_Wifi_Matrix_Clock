@@ -68,8 +68,12 @@ select board : Nodemcu 1.0
 
 ![red.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/red.jpg?raw=true)
 
+#VIN接口不同开发板定义不一样 如果你的LED显示异常 请换到VV或3.3V  
+#The definition of VIN is different for different boards. If your LED display is abnormal, please change to VV or 3.3V    
 使用DS18B20模块(use DS18B20 module)  
 ![wire.png](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/wire.png?raw=true)
+![wire.png](http://www.topyuan.top/matrix/wire.png)
 
 如果你没有DS18B20模块 只有DS18B20 可以自己接一个4k7上拉电阻(If you only have DS18B20(not module), you can add a 4k7 pull-up resistant)  
 ![wire1.png](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/wire1.png?raw=true)
+![wire1.png](http://www.topyuan.top/matrix/wire1.png)
