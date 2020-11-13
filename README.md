@@ -1,5 +1,6 @@
 # Esp8266_Wifi_Matrix_Clock
 A Esp8266 wifi matrix clock 
+![white.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/IMG_20201105_220754.jpg?raw=true)
 
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
