@@ -1,4 +1,4 @@
-# Esp8266_Wifi_Matrix_Clock
+# SuperY_WiFi_Clock
 A Esp8266 wifi matrix clock 
 ![white.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/IMG_20201105_220754.jpg?raw=true)
 
