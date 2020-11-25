@@ -22,8 +22,8 @@ const char* serverIndex = "<form method='POST' action='/update' enctype='multipa
 
 void setup(void) {
   Serial.begin(115200);
-  EEPROM.begin(512);
-  for (int i = 0; i < 512; i++) {
+  EEPROM.begin(900);
+  for (int i = 0; i < 900; i++) {
     EEPROM.write(i, 255);
   }
   EEPROM.end();
