@@ -5,6 +5,11 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
+2021.04.02   
+已更新3.3版本，现在已支持离线使用，若想离线使用，需连接DS3231，连线 正(3.3/5v) 负(GND) SDA(D2/GPIO4) SCL(D1/GPIO5)    
+Update version 3.3, can support DS3231 RTC now, if you want to use the clock without wifi , you can add a DS3231 ,wire: +(3.3/5v) -(GND) SDA(D2/GPIO4) SCL(D1/GPIO5)    
+
+
 2020.10.23 已查明上次事故的原因 是2.5版本的固件中 OTA部分出了问题 所以2.6更新后无法运行 现已将2.5 2.6固件删掉 修复后重新编译了2.7 增加了调速功能 显示更为流畅 修复了OTA的bug 请重新手动更新为2.7 以后会避免此类事件发生 对此深表歉意  出现问题可直接邮件联系我 admin@topyuan.top  
 2020.10.23 It has been found that the cause of the last accident is that the OTA part of the 2.5 version of the firmware has a problem, so it cannot run after the 2.6 update. Now the 2.5 2.6 firmware has been deleted and recompiled after repairing 2.7. The speed control function has been added. The display is more smooth and OTA bugs have been fixed . Please manually update to 2.7 again. This kind of incident will be avoided in the future. I apologize. If you have any problems, please email me   admin@topyuan.top
 
