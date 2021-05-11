@@ -1,19 +1,13 @@
-/*
-  To upload through terminal you can use: curl -F "image=@firmware.bin" esp8266-webupdate.local/update
-*/
-
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
-#include <ESP8266mDNS.h>
 #include <EEPROM.h>
 
 #ifndef STASSID
-#define STASSID "your-ssid"
-#define STAPSK  "your-password"
+#define STASSID "WIFINAME"
+#define STAPSK  "password"
 #endif
 
-const char* host = "esp8266-webupdate";
 const char* ssid = STASSID;
 const char* password = STAPSK;
 
@@ -22,8 +16,8 @@ const char* serverIndex = "<form method='POST' action='/update' enctype='multipa
 
 void setup(void) {
   Serial.begin(115200);
-  EEPROM.begin(512);
-  for (int i = 0; i < 512; i++) {
+  EEPROM.begin(520);
+  for (int i = 0; i < 520; i++) {
     EEPROM.write(i, 255);
   }
   EEPROM.end();
@@ -32,7 +26,7 @@ void setup(void) {
   WiFi.mode(WIFI_AP_STA);
   WiFi.begin(ssid, password);
   if (WiFi.waitForConnectResult() == WL_CONNECTED) {
-    MDNS.begin(host);
+
     server.on("/", HTTP_GET, []() {
       server.sendHeader("Connection", "close");
       server.send(200, "text/html", serverIndex);
@@ -45,7 +39,7 @@ void setup(void) {
       HTTPUpload& upload = server.upload();
       if (upload.status == UPLOAD_FILE_START) {
         Serial.setDebugOutput(true);
-        WiFiUDP::stopAll();
+     
         Serial.printf("Update: %s\n", upload.filename.c_str());
         uint32_t maxSketchSpace = (ESP.getFreeSketchSpace() - 0x1000) & 0xFFFFF000;
         if (!Update.begin(maxSketchSpace)) { //start with max available size
@@ -66,9 +60,9 @@ void setup(void) {
       yield();
     });
     server.begin();
-    MDNS.addService("http", "tcp", 80);
+  
 
-    Serial.printf("Ready! Open http://%s.local in your browser\n", host);
+
     Serial.println("or http://"+WiFi.localIP().toString());
 
   } else {
@@ -78,5 +72,4 @@ void setup(void) {
 
 void loop(void) {
   server.handleClient();
-  MDNS.update();
 }
