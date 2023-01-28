@@ -47,9 +47,9 @@ CST6CDT5,M3.2.0/2:00,M11.1.0/2:00
 
 This would effect a change to daylight saving time at 2:00 AM on the second Sunday in March and change back at 2:00 AM on the first Sunday in November. The breakdown of the string is:
 
-- CST is the abbreviation name used when DST is off
+- CST is the abbreviation name used when DST is off(It's just a name), and if <name> means name can use + or -, for example you can write <+3> as STD name
 - 6 hours is the time difference from UTC , means UTC -6:00
-- CDT is the abbreviation name used when DST is on
+- CDT is the abbreviation name used when DST is on(It's just a name), and if <name> means name can use + or -, for example you can write <+3> as DST name
 - 5 means UTC-5:00 when DST is on
 - ,M3 is the third month
 - .2 is the second occurrence of the day in the month
