@@ -147,7 +147,6 @@ and some common posix string:
 |Asia/Gaza|EET-2EEST,M3.5.6/1,M10.5.6/1|
 |Asia/Hebron|EET-2EEST,M3.5.6/1,M10.5.6/1|
 |Asia/Nicosia|EET-2EEST,M3.5.0/3,M10.5.0/4|
-|Asia/Novosibirsk1|<+1030>0:51<+11>2,M3.1.2/1:02,M4.2.1/4:05|
 |Atlantic/Azores|<-01>1<+00>,M3.5.0/0,M10.5.0/1|
 |Atlantic/Bermuda|AST4ADT,M3.2.0,M11.1.0|
 |Atlantic/Canary|WET0WEST,M3.5.0/1,M10.5.0|
@@ -219,7 +218,6 @@ and some common posix string:
 |Pacific/Apia|<+13>-13<+14>,M9.5.0/3,M4.1.0/4|
 |Pacific/Auckland|NZST-12NZDT,M9.5.0,M4.1.0/3|
 |Pacific/Chatham|<+1245>-12:45<+1345>,M9.5.0/2:45,M4.1.0/3:45|
-|Pacific/Chatham2|<+1245>-12:45<+1345>,M9.5.0/2:45,M4.1.0/3:45|
 |Pacific/Fiji|<+12>-12<+13>,M11.1.0,M1.3.0/3|
 |Pacific/Tongatapu|<+13>-13<+14>,M11.1.0,M1.3.0/3|
 |PST8PDT|PST8PDT,M3.2.0,M11.1.0|
