@@ -5,6 +5,26 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
+## 2023.3.8
+## 太久没有更新，主要是功能已稳定，工作比较忙(程序员你懂的)，空闲时间想更多陪伴家人，所以很久没有更新，本次看似小更新，实际重写了大量代码，优化了很多地方。
+- 毫秒级精度  (你可以制作多个时钟放在一起 会发现几乎分秒不差)
+- 新增智能夏令时模式  (全球有大量国家在施行夏令时，并且每个国家的规则并不相同，想要做到自动切换是一个复杂的事情，本次已完成配置一次，自动切换)
+- 新增上次和NTP服务器同步时间提示
+- 修复文字播放设置不能记忆问题
+- 新增在线设备地图展示  (在配置页下方有链接 你可以查看全球实时在线设备了 或者你可以直接查看http://www.topyuan.top/matrix/map/online)
+- 本次更新内容较多,如发现bug请联系我admin@topyuan.top
+
+## 2023.3.8
+## It’s been a long time since I’ve updated, mainly because the functions have stabilized and I’m busy at work (programmers you know), and I want to spend more time with my family in my spare time, so I haven’t updated for a long time. This seemingly small update has actually rewritten a lot of code and optimized it.
+- Millisecond precision  (You can make multiple clocks and put them together, and you will find that there is almost no difference between minutes and seconds)
+- Add smart daylight saving time mode (There are a large number of countries around the world that implement daylight saving time, and the rules of each country are different. It is a complicated thing to achieve automatic switching. This time,  once configuration, and automatic switching)
+- Add last Sync time with NTP server
+- Fix bug:Custom text mode cannot saved
+- Add online map  (There is a link at the bottom of the configuration page, you can view the global real-time online devices, or you can directly view http://www.topyuan.top/matrix/map/online)
+- Please contact me admin@topyuan.top if you find bugs
+
+---
+
 2021.04.02   
 已更新3.3版本，现在已支持离线使用，若想离线使用，需连接DS3231，连线 正(3.3/5v) 负(GND) SDA(D2/GPIO4) SCL(D1/GPIO5)    
 Update version 3.3, can support DS3231 RTC now, if you want to use the clock without wifi , you can add a DS3231 ,wire: +(3.3/5v) -(GND) SDA(D2/GPIO4) SCL(D1/GPIO5)    
