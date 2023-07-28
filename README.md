@@ -1,6 +1,6 @@
 # SuperY_WiFi_Clock
 A Esp8266 wifi matrix clock 
-![white.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/IMG_20201105_220754.jpg?raw=true)
+![white.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/IMG_20201105_220754.jpg?raw=true)
 
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
@@ -8,7 +8,7 @@ Telegram group https://t.me/wifi_matrix_clock
 ## 2023.3.8
 ## 太久没有更新，主要是功能已稳定，工作比较忙(程序员你懂的)，空闲时间想更多陪伴家人，所以很久没有更新，本次看似小更新，实际重写了大量代码，优化了很多地方。
 - 毫秒级精度  (你可以制作多个时钟放在一起 会发现几乎分秒不差)
-- 新增智能夏令时模式  (全球有大量国家在施行夏令时，并且每个国家的规则并不相同，想要做到自动切换是一个复杂的事情，本次已完成配置一次，自动切换，关于配置规则请查看https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/posix.md 我也编写了一个规则生成器http://www.topyuan.top/posix)
+- 新增智能夏令时模式  (全球有大量国家在施行夏令时，并且每个国家的规则并不相同，想要做到自动切换是一个复杂的事情，本次已完成配置一次，自动切换，关于配置规则请查看https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/posix.md 我也编写了一个规则生成器http://www.topyuan.top/posix)
 - 新增上次和NTP服务器同步时间提示
 - 修复文字播放设置不能记忆问题
 - 新增在线设备地图展示  (在配置页下方有链接 你可以查看全球实时在线设备了 或者你可以直接查看http://www.topyuan.top/matrix/map/online)
@@ -17,7 +17,7 @@ Telegram group https://t.me/wifi_matrix_clock
 ## 2023.3.8
 ## It’s been a long time since I’ve updated, mainly because the functions have stabilized and I’m busy at work (programmers you know), and I want to spend more time with my family in my spare time, so I haven’t updated for a long time. This seemingly small update has actually rewritten a lot of code and optimized it.
 - Millisecond precision  (You can make multiple clocks and put them together, and you will find that there is almost no difference between minutes and seconds)
-- Add smart daylight saving time mode (There are a large number of countries around the world that implement daylight saving time, and the rules of each country are different. It is a complicated thing to achieve automatic switching. This time,  once configuration, and automatic switching, About Posix rules please view https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/posix.md  I also develop a generator http://www.topyuan.top/posix)
+- Add smart daylight saving time mode (There are a large number of countries around the world that implement daylight saving time, and the rules of each country are different. It is a complicated thing to achieve automatic switching. This time,  once configuration, and automatic switching, About Posix rules please view https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/posix.md  I also develop a generator http://www.topyuan.top/posix)
 - Add last Sync time with NTP server
 - Fix bug:Custom text mode cannot saved
 - Add online map  (There is a link at the bottom of the configuration page, you can view the global real-time online devices, or you can directly view http://www.topyuan.top/matrix/map/online)
@@ -84,23 +84,23 @@ select board : Nodemcu 1.0
 
 
 
-![bom.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/bom.jpg?raw=true)
+![bom.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/bom.jpg?raw=true)
 
-![1.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/1.jpg?raw=true)
+![1.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/1.jpg?raw=true)
 
-![blue.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/blue.jpg?raw=true)
+![blue.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/blue.jpg?raw=true)
 
-![green.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/green.jpg?raw=true)
+![green.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/green.jpg?raw=true)
 
-![red.jpg](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/red.jpg?raw=true)
+![red.jpg](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/red.jpg?raw=true)
 
 
 使用DS18B20模块(use DS18B20 module)  
-![wire.png](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/wire.png?raw=true)
+![wire.png](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/wire.png?raw=true)
 
 ![wire.png](http://www.topyuan.top/matrix/wire.png)
 
 如果你没有DS18B20模块 只有DS18B20 可以自己接一个4k7上拉电阻(If you only have DS18B20(not module), you can add a 4k7 pull-up resistant)  
-![wire1.png](https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/Pics/wire1.png?raw=true)
+![wire1.png](https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/Pics/wire1.png?raw=true)
 
 ![wire1.png](http://www.topyuan.top/matrix/wire1.png)
