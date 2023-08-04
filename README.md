@@ -8,7 +8,7 @@ Telegram group https://t.me/wifi_matrix_clock
 ## 2023.3.8
 ## 太久没有更新，主要是功能已稳定，工作比较忙(程序员你懂的)，空闲时间想更多陪伴家人，所以很久没有更新，本次看似小更新，实际重写了大量代码，优化了很多地方。
 - 毫秒级精度  (你可以制作多个时钟放在一起 会发现几乎分秒不差)
-- 新增智能夏令时模式  (全球有大量国家在施行夏令时，并且每个国家的规则并不相同，想要做到自动切换是一个复杂的事情，本次已完成配置一次，自动切换，关于配置规则请查看https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/posix.md 我也编写了一个规则生成器http://www.topyuan.top/posix)
+- 新增智能夏令时模式  (全球有大量国家在施行夏令时，并且每个国家的规则并不相同，想要做到自动切换是一个复杂的事情，本次已完成配置一次，自动切换，关于配置规则请查看https://raw.githubusercontent.com/yuan910715/Esp8266_Wifi_Matrix_Clock/master/posix.md  https://github.com/yuan910715/Esp8266_Wifi_Matrix_Clock/blob/master/posix.md 我也编写了一个规则生成器http://www.topyuan.top/posix)
 - 新增上次和NTP服务器同步时间提示
 - 修复文字播放设置不能记忆问题
 - 新增在线设备地图展示  (在配置页下方有链接 你可以查看全球实时在线设备了 或者你可以直接查看http://www.topyuan.top/matrix/map/online)
