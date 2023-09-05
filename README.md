@@ -5,6 +5,20 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
+## 2023.9.5
+## v3.8
+- 新增室内温度小数显示开关(以便一屏显示温湿度).感谢Suresh Varma
+- 新增DIY大号字体
+
+## 2023.9.5
+## v3.8
+- Add Room Temperature decimal switch(for incomplete display of temperature and humidity).Thanks for Suresh Varma
+- Add DIY Big Font
+
+
+
+
+
 ## 2023.3.8
 ## 太久没有更新，主要是功能已稳定，工作比较忙(程序员你懂的)，空闲时间想更多陪伴家人，所以很久没有更新，本次看似小更新，实际重写了大量代码，优化了很多地方。
 - 毫秒级精度  (你可以制作多个时钟放在一起 会发现几乎分秒不差)
