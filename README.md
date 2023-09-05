@@ -5,13 +5,11 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
-## 2023.9.5
-## v3.8
+## 2023.9.5 v3.8
 - 新增室内温度小数显示开关(以便一屏显示温湿度).感谢Suresh Varma
 - 新增DIY大号字体
 
-## 2023.9.5
-## v3.8
+## 2023.9.5 v3.8
 - Add Room Temperature decimal switch(for incomplete display of temperature and humidity).Thanks for Suresh Varma
 - Add DIY Big Font
 
