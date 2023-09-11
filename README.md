@@ -5,6 +5,12 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
+## 2023.9.11 v3.9
+- 新增总计运行天数
+
+## 2023.9.11 v3.9
+- Add Run time(Total)
+  
 ## 2023.9.5 v3.8
 - 新增室内温度小数显示开关(以便一屏显示温湿度).感谢Suresh Varma
 - 新增DIY大号字体
