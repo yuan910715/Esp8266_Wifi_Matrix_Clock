@@ -5,6 +5,14 @@ A Esp8266 wifi matrix clock
 交流群q:   936535764   
 Telegram group https://t.me/wifi_matrix_clock   
 
+## 2023.12.13 v4.0
+- 修复因在线天气API返回值变更导致的温度显示异常问题
+- 开机时,连接wifi失败后每5分钟重新尝试连接,而不是一直在配网模式等待(应对意外断电,路由器和时钟同时重启导致的无法连接网络问题)
+
+## 2023.12.13 v4.0
+- Fix temperature display anomalies caused by changes in online weather API return values
+- When starting up, try connecting again every 5 minutes after failing to connect to WiFi, instead of waiting in network configuration mode all the time (to deal with unexpected power outages, router and clock restarts causing network connectivity issues)
+
 ## 2023.9.11 v3.9
 - 新增总计运行天数
 
