@@ -7,6 +7,8 @@ A Esp8266 wifi matrix clock
 
 ## 全球在线时钟列表(global online devices) http://www.topyuan.top/matrix/map/online
 
+## 在线安装(online Installer) https://topyuan.top/matrix/installer
+
 ## 2023.12.13 v4.0
 - 修复因在线天气API返回值变更导致的温度显示异常问题
 - 开机时,连接wifi失败后每5分钟重新尝试连接,而不是一直在配网模式等待(应对意外断电,路由器和时钟同时重启导致的无法连接网络问题)
@@ -77,6 +79,10 @@ https://space.bilibili.com/402654671
 
 固件上传方法:   
 how to upload firmware:  
+
+# 首选方法，在线安装 ,  Use this online installer!
+
+https://topyuan.top/matrix/installer
 
 如果你的开发板写入过其他程序(尤其是使用了EEPROM的),务必先烧录ResetChip.bin或使用第二种Arduino IDE上传方法,webUpdate.ino会清除之前的EEPROM值. 如果不将旧的EEPROM值清除,配置网页会出现无选项 乱码现象     
 If your ESP8266 board has been written other programs (especially those using EEPROM), be sure to flash ResetChip.bin first or use the second Arduino IDE to upload, webUpdate.ino will clean old EEPROM value.   If the old EEPROM value is not cleared, there will be no option in the configuration page or display garbled code in the configuration page    
