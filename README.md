@@ -9,7 +9,9 @@ A Esp8266 wifi matrix clock
 
 ## 在线安装(online Installer) https://topyuan.top/matrix/installer
 
-## 查找时钟 https://topyuan.top/clock/find   Find My Clock https://topyuan.top/clock/find_en
+## 查找时钟 https://topyuan.top/clock/find
+
+## Find My Clock https://topyuan.top/clock/find_en
 
 <details>
 
