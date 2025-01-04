@@ -9,9 +9,17 @@ A Esp8266 wifi matrix clock
 
 ## 在线安装(online Installer) https://topyuan.top/matrix/installer
 
+## 查找时钟 https://topyuan.top/clock/find   Find My Clock https://topyuan.top/clock/find_en
+
 <details>
 
 <summary>更新日志 Changelogs</summary>
+
+## 2025.1.4 v4.1
+- 新增查找时钟页面
+
+## 2025.1.4 v4.1
+- Add find my clock
 
 ## 2023.12.13 v4.0
 - 修复因在线天气API返回值变更导致的温度显示异常问题
