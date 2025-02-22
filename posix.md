@@ -63,7 +63,9 @@ This would effect a change to daylight saving time at 2:00 AM on the second Sund
 
 It can be abbreviated as CST6CDT , The default posixrules is to use the rule M3.2.0/2:00,M11.1.0/2:00 and dstoffset is one hour ahead of STD.
 
-and some common posix string:
+## Sample IANA to posix strings
+
+Some common posix string:
 
 |Region|Posix String|
 :-|-:
